@@ -1,0 +1,32 @@
+{
+  "name": "sitely-server-nodejs-app",
+  "version": "1.0.0",
+  "description": "sample md file.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mangat-ram/sitely-server-nodejs-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mangat-ram/sitely-server-nodejs-app/issues"
+  },
+  "homepage": "https://github.com/mangat-ram/sitely-server-nodejs-app#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
